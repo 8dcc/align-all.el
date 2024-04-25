@@ -101,6 +101,7 @@ already aligned orno match found, or the last aligned position otherwise."
         (setq line-i (1+ line-i)))
       ret)))
 
+;;;###autoload
 (defun x8dcc/align-all (line-start line-end regex &optional
                                    regex-num-start regex-num-end)
   "Align from LINE-START to LINE-END, using all possible matches of REGEX as
