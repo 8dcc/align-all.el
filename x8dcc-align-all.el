@@ -2,6 +2,7 @@
 
 ;; Author: 8dcc <8dcc.git@gmail.com>
 ;; Version: 0.1.0
+;; URL: https://github.com/x8dcc/align-all.el
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -80,6 +81,7 @@ RIGHTMOST-POS. Returns RIGHTMOST-POS on success, and nil on failure."
           (insert " "))
         rightmost-pos))))
 
+;;;###autoload
 (defun x8dcc/align (line-start line-end regex &optional regex-num)
   "Align from LINE-START to LINE-END using the REGEX-NUM-th match of REGEX as
 separator. If omited, REGEX-NUM defaults to 1 (the first match). Returns nil if
