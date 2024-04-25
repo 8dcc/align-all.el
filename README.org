@@ -1,0 +1,17 @@
+#+TITLE: align-all.el
+#+OPTIONS: toc:2
+#+STARTUP: showeverything
+#+AUTHOR: 8dcc
+
+* Description
+
+This package is meant for personal use. For my full emacs dotfiles, see: [[https://github.com/8dcc/emacs-dotfiles][Link]].
+
+* Installing
+
+If you are using =use-package= with =straight=, you can install the package with:
+
+#+begin_src emacs-lisp
+(straight-use-package
+  '(x8dcc-align-all :type git :host github :repo "8dcc/align-all.el"))
+#+end_src
